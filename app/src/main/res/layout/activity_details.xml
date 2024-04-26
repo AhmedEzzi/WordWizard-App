@@ -5,6 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:screenOrientation="portrait"
     android:background="@drawable/bg2"
     tools:context=".DetailsActivity">
 
@@ -36,6 +37,7 @@
         android:layout_marginStart="16dp"
         android:layout_marginTop="50dp"
         android:layout_marginEnd="16dp"
+        android:onClick="animStart"
         app:layout_constraintEnd_toStartOf="@+id/guideline2"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/wmTxt"
@@ -49,6 +51,7 @@
         android:layout_marginTop="50dp"
         android:layout_marginEnd="16dp"
         android:adjustViewBounds="false"
+        android:onClick="fvcStart"
         android:scaleType="centerCrop"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="@+id/guideline2"
@@ -61,5 +64,17 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         app:layout_constraintGuide_percent="0.5" />
+
+    <ImageView
+        android:id="@+id/colorsBtn"
+        android:layout_width="183dp"
+        android:layout_height="173dp"
+        android:layout_marginTop="32dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline3"
+        app:srcCompat="@drawable/coloricon"
+        tools:srcCompat="@drawable/coloricon" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
