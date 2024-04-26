@@ -48,13 +48,14 @@
         android:id="@+id/scoreTxt"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="32dp"
+        android:layout_marginBottom="72dp"
         android:gravity="center"
         android:text="Score:"
         android:textSize="34sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         tools:text="Score" />
 
@@ -63,7 +64,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="594dp"
+        tools:layout_editor_absoluteY="567dp"
         tools:text="TextView" />
 </androidx.constraintlayout.widget.ConstraintLayout>
