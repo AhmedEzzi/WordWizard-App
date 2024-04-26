@@ -10,6 +10,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 
+
 class DetailsActivity : AppCompatActivity() {
     lateinit var wmTxt:TextView
     override fun onCreate(savedInstanceState: Bundle?) {
