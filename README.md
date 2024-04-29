@@ -23,5 +23,9 @@ Embark on a magical journey of learning and discovery with WordWizard Adventures
 Ignite the spark of curiosity and embark on an unforgettable journey of learning and discovery with WordWizard Adventures. Whether at home or on the go, this enchanting app is the perfect companion for young learners eager to explore the wonders of language and creativity.
 
 
+## Photos of it
+![intro](https://github.com/AhmedEzzi/WordWizard-App/assets/100492004/bd6ae6c9-ff70-4284-9503-74970da8efc2)
+![catgo](https://github.com/AhmedEzzi/WordWizard-App/assets/100492004/c7bf8bbb-0c3a-4571-b19d-f07dcc093fab)
+![game](https://github.com/AhmedEzzi/WordWizard-App/assets/100492004/18d314ba-5d5a-4e9e-bcd7-52f0947b8b10)
 
----
+----
